@@ -20063,6 +20063,7 @@ html[data-theme="dark"] .container,
 html[data-theme="dark"] .modal-content,
 html[data-theme="dark"] .input-group-text,
 html[data-theme="dark"] .form-control,
+html[data-theme="dark"] .accordion-item,
 html[data-theme="dark"] .choices__inner{
   background-color: #1f1f1f !important;
   color: #f1f1f1 !important;
@@ -20096,7 +20097,7 @@ html[data-theme="dark"] .border {
 
 /* Link màu xanh sáng */
 html[data-theme="dark"] a {
-  color: #90caf9;
+  color: #ffffff;
 }
 html[data-theme="dark"] a:hover {
   color: #64b5f6;
@@ -20134,6 +20135,9 @@ html[data-theme="dark"] .card-title,
 html[data-theme="dark"] .category-box-title,
 html[data-theme="dark"] .course-title,
 html[data-theme="dark"] .instructor-name,
+html[data-theme="dark"] .list-inline-item,
+html[data-theme="dark"] td,
+html[data-theme="dark"] li,
 html[data-theme="dark"] p,
 html[data-theme="dark"] h1,
 html[data-theme="dark"] h2,
@@ -20159,6 +20163,13 @@ html[data-theme="dark"] .course-price,
 html[data-theme="dark"] .course-rating {
   color: #fff !important;
 }
+html[data-theme="dark"] .accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .accordion-button.collapsed {
+  color: #ffffff !important;
+}
 
 /* Viền card nếu cần */
 html[data-theme="dark"] .card {
@@ -20168,6 +20179,16 @@ html[data-theme="dark"] .dark-mode-box {
   background-color: #2a2a2a !important;
   color: #f1f1f1 !important;
   border: 1px solid #444 !important;
+}
+html[data-theme="dark"] .ql-picker-options{
+  background-color: #333 !important;
+  color: #fff !important;
+  border: 1px solid #555;
+}
+
+html[data-theme="dark"] option {
+  background-color: #333 !important;
+  color: #fff !important;
 }
 
 .text-primary-hover a {

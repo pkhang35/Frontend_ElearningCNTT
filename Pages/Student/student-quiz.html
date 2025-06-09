@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Eduport - LMS, Education and Course Theme</title>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Eduport- LMS, Education and Course Theme">
+        <!-- Favicon -->
+        <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+        <link rel="icon"  href="favicon.ico">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+        <!-- BS Stepper -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bs-stepper/dist/css/bs-stepper.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bs-stepper/dist/js/bs-stepper.min.js"></script>
+        <!-- Plugins CSS -->
+ 	    <link rel="stylesheet" type="text/css" href="/assets/vendor/font-awesome/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="/assets/vendor/tiny-slider/tiny-slider.css">
+        <link rel="stylesheet" type="text/css" href="/assets/vendor/glightbox/css/glightbox.css">
+        <!-- Theme CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F48KSYBVL7"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-F48KSYBVL7');
+        </script>
+    </head>
+    <body>
+        <!-- Header START -->
+<header class="navbar-light navbar-sticky header-static">
+	<!-- Logo Nav START -->
+	<nav class="navbar navbar-expand-xl">
+		<div class="container">
+			<!-- Logo START -->
+			<a class="navbar-brand" href="/Pages/Public/index-3.html">
+				<img class="light-mode-item navbar-brand-item" src="/assets/images/logo.svg" alt="logo">
+				<img class="dark-mode-item navbar-brand-item" src="/assets/images/logo-light.svg" alt="logo">
+			</a>
+			<!-- Logo END -->
+
+			<!-- Responsive navbar toggler -->
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-animation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</button>
+
+			<!-- Main navbar START -->
+			<div class="navbar-collapse w-100 collapse" id="navbarCollapse">
+
+        <!-- Nav Main menu START -->
+				<ul class="navbar-nav navbar-nav-scroll mx-auto">
+					<!-- Nav item 1 Home -->
+					<li class="nav-item"><a class="nav-link" href="/Pages/Public/index-3.html">Trang Chủ</a></li>
+
+					<!-- Nav item 2 About -->
+					<li class="nav-item"><a class="nav-link" href="/Pages/Public/about.html">Giới Thiệu</a></li>
+
+					<!-- Nav item 3 Course -->
+					<li class="nav-item"><a class="nav-link" href="/Pages/Public/course-list-2.html">Khóa Học</a></li>
+
+					<!-- Nav item 4 My Course-->
+					<li class="nav-item"><a class="nav-link" href="/Pages/Student/student-course-list.html">Khóa Học Của Tôi</a></li>
+				</ul>
+				<!-- Nav Main menu END -->
+
+				<!-- Nav Search START -->
+				<div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+					<div class="nav-item w-100">
+						<form class="position-relative">
+							<input class="form-control pe-5 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn bg-transparent px-2 py-0 position-absolute top-50 end-0 translate-middle-y" type="submit"><i class="fas fa-search fs-6 "></i></button>
+						</form>
+					</div>
+				</div>
+				<!-- Nav Search END -->
+			</div>
+			<!-- Main navbar END -->
+
+			<!-- Profile START -->
+			<div class="dropdown ms-1 ms-lg-0">
+				<a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+					<img class="avatar-img rounded-circle" src="/assets/images/avatar/01.jpg" alt="avatar">
+				</a>
+				<ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3" aria-labelledby="profileDropdown">
+					<!-- Profile info -->
+					<li class="px-3">
+						<div class="d-flex align-items-center">
+							<!-- Avatar -->
+							<div class="avatar me-3">
+								<img class="avatar-img rounded-circle shadow" src="/assets/images/avatar/01.jpg" alt="avatar">
+							</div>
+							<div>
+								<a class="h6" href="#">Lori Ferguson</a>
+								<p class="small m-0">example@gmail.com</p>
+							</div>
+						</div>
+						<hr>
+					</li>
+					<!-- Links -->
+					<li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>Chỉnh sửa hồ sơ</a></li>
+					<li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Cài đặt</a></li>
+					<li><a class="dropdown-item bg-danger-soft-hover" href="#"><i class="bi bi-power fa-fw me-2"></i>Đăng xuất</a></li>
+					<li> <hr class="dropdown-divider"></li>
+					<!-- Dark mode switch START -->
+					<li>
+						<div class="modeswitch-wrap" id="darkModeSwitch">
+							<div class="modeswitch-item">
+								<div class="modeswitch-icon"></div>
+							</div>
+							<span>Dark mode</span>
+						</div>
+					</li> 
+          <!-- Dark mode switch END -->
+				</ul>
+			</div>
+			<!-- Profile START -->
+			 <!-- Login/Register START -->
+			<div class="ms-3 d-flex align-items-center">
+				<a href="/Pages/Auth/sign-in.html" class="btn btn-sm btn-outline-primary me-2">Đăng nhập</a>
+				<a href="/Pages/Auth/sign-up.html" class="btn btn-sm btn-primary">Đăng ký</a>
+			</div>
+<!-- Login/Register END -->
+		</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+        <!-- **************** MAIN CONTENT START **************** -->
+		
+        <main>
+            <!-- =======================
+Page Banner START -->
+            <section class="pt-0" >
+                <div class="container-fluid px-0">
+                    <div class="card bg-blue h-100px h-md-200px rounded-0" style="background:url(/assets/images/pattern/04.png) no-repeat center center; background-size:cover;"></div>
+                </div>
+                <div class="container mt-n4">
+                    <div class="row">
+                        <div class="col-12" id="studentDashboard">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =======================
+Page Banner END -->
+            <!-- =======================
+Page content START -->
+            <section class="pt-0">
+                <div class="container">
+                    <div class="row">
+                        <!-- Left sidebar START -->
+                        <div class="col-xl-3">
+                           <!-- Responsive offcanvas body START -->
+				<nav class="navbar navbar-light navbar-expand-xl mx-0">
+					<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+						<!-- Offcanvas header -->
+						<div class="offcanvas-header bg-light">
+							<h5 class="offcanvas-title" id="offcanvasNavbarLabel">My profile</h5>
+							<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<!-- Offcanvas body -->
+						<div class="offcanvas-body p-3 p-xl-0">
+							<div class="bg-dark border rounded-3 pb-0 p-3 w-100">
+								<!-- Dashboard menu -->
+								<div class="list-group list-group-dark list-group-borderless">
+									<a class="list-group-item active" href="/Pages/Dashboard/student-dashboard.html"><i class="bi bi-ui-checks-grid fa-fw me-2"></i>Dashboard</a>
+									<a class="list-group-item" href="/Pages/Student/student-subscription.html"><i class="bi bi-card-checklist fa-fw me-2"></i>My Subscriptions</a>
+									<a class="list-group-item" href="/Pages/Student/student-course-list.html"><i class="bi bi-basket fa-fw me-2"></i>My Courses</a>
+									<a class="list-group-item" href="/Pages/Student/student-payment-info.html"><i class="bi bi-credit-card-2-front fa-fw me-2"></i>Payment info</a>
+									<a class="list-group-item" href="/Pages/Intructors/instructor-edit-profile.html"><i class="bi bi-pencil-square fa-fw me-2"></i>Edit Profile</a>
+									<a class="list-group-item" href="/Pages/Student/student-quiz.html"><i class="bi bi-question-diamond fa-fw me-2"></i>Quiz</a>
+									<a class="list-group-item" href="/Pages/Intructors/instructor-setting.html"><i class="bi bi-gear fa-fw me-2"></i>Settings</a>
+									<a class="list-group-item" href="/Pages/Intructors/instructor-delete-account.html"><i class="bi bi-trash fa-fw me-2"></i>Delete Profile</a>
+									<a class="list-group-item text-danger bg-danger-soft-hover" href="#"><i class="fas fa-sign-out-alt fa-fw me-2"></i>Sign Out</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<!-- Responsive offcanvas body END -->
+                        </div>
+                        <!-- Left sidebar END -->
+                        <!-- Main content START -->
+                        <div class="col-xl-9">
+                            <!-- Course item START -->
+                            <div class="card border">
+                                <div class="card-header border-bottom">
+                                    <!-- Course list START -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card">
+                                                <div class="row g-0">
+                                                    <div class="col-md-2">
+                                                        <img src="images/01.jpg" class="rounded-2" alt="Card image">
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <div class="card-body">
+                                                            <!-- Title -->
+                                                            <h3 class="card-title">
+                                                                <a href="#">The Complete Digital Marketing Course - 12 Courses in 1</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Course list END -->
+                                </div>
+                                <div class="card-body">
+                                    <!-- Step content START -->
+                                    <div class="card bg-transparent border rounded-3 mb-1">
+                                        <div id="stepper" class="bs-stepper stepper-outline">
+                                            <!-- Card header -->
+                                            <div class="card-header bg-light border-bottom px-lg-5">
+                                                <!-- Step Buttons START -->
+                                                <div class="bs-stepper-header" role="tablist">
+                                                    <!-- Step 1 -->
+                                                    <div class="step" data-target="#step-1">
+                                                        <div class="d-grid text-center align-items-center">
+                                                            <button type="button" class="btn btn-link step-trigger mb-0" role="tab" id="steppertrigger1" aria-controls="step-1">
+                                                                <span class="bs-stepper-circle">1</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="line"></div>
+                                                    <!-- Step 2 -->
+                                                    <div class="step" data-target="#step-2">
+                                                        <div class="d-grid text-center align-items-center">
+                                                            <button type="button" class="btn btn-link step-trigger mb-0" role="tab" id="steppertrigger2" aria-controls="step-2">
+                                                                <span class="bs-stepper-circle">2</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="line"></div>
+                                                    <!-- Step 3 -->
+                                                    <div class="step" data-target="#step-3">
+                                                        <div class="d-grid text-center align-items-center">
+                                                            <button type="button" class="btn btn-link step-trigger mb-0" role="tab" id="steppertrigger3" aria-controls="step-3">
+                                                                <span class="bs-stepper-circle">3</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="line"></div>
+                                                    <!-- Step 4 -->
+                                                    <div class="step" data-target="#step-4">
+                                                        <div class="d-grid text-center align-items-center">
+                                                            <button type="button" class="btn btn-link step-trigger mb-0" role="tab" id="steppertrigger4" aria-controls="step-4">
+                                                                <span class="bs-stepper-circle">4</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Step Buttons END -->
+                                            </div>
+                                            <!-- Card body START -->
+                                            <div class="card-body">
+                                                <h6 class="text-danger text-end mb-0">
+                                                    <i class="bi bi-clock-history me-2"></i>
+                                                    Time Left: 00:01:30
+                                                </h6>
+                                                <!-- Step content START -->
+                                                <div class="bs-stepper-content">
+                                                    <form>
+                                                        <!-- Step 1 content START -->
+                                                        <div id="step-1" role="tabpanel" class="content fade" aria-labelledby="steppertrigger1">
+                                                            <!-- Title -->
+                                                            <h4>How do you protect your business against cyber-crime?</h4>
+                                                            <hr>
+                                                            <!-- Divider -->
+                                                            <div class="vstack gap-2">
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option1">
+                                                                    <label class="btn btn-outline-primary w-100" for="option1">We have cybersecurity insurance coverage</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option2">
+                                                                    <label class="btn btn-outline-primary w-100" for="option2">Our dedicated staff will protect us</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option3">
+                                                                    <label class="btn btn-outline-primary w-100" for="option3">We give regular training for best practices</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option4">
+                                                                    <label class="btn btn-outline-primary w-100" for="option4">Third-party vendor protection</label>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Step 1 button -->
+                                                            <div class="d-flex justify-content-center mt-3">
+                                                                <button type="button" class="btn btn-primary next-btn mb-0">Next question</button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Step 1 content END -->
+                                                        <!-- Step 2 content START -->
+                                                        <div id="step-2" role="tabpanel" class="content fade" aria-labelledby="steppertrigger2">
+                                                            <!-- Title -->
+                                                            <h4>What is SEO?</h4>
+                                                            <hr>
+                                                            <!-- Divider -->
+                                                            <div class="vstack gap-2">
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option11">
+                                                                    <label class="btn btn-outline-primary w-100" for="option11">We have cybersecurity insurance coverage</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option22">
+                                                                    <label class="btn btn-outline-primary w-100" for="option22">Our dedicated staff will protect us</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option33">
+                                                                    <label class="btn btn-outline-primary w-100" for="option33">We give regular training for best practices</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option44">
+                                                                    <label class="btn btn-outline-primary w-100" for="option44">Third-party vendor protection</label>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Next button -->
+                                                            <div class="d-flex justify-content-center mt-3">
+                                                                <button type="button" class="btn btn-primary next-btn mb-0">Next question</button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Step 2 content END -->
+                                                        <!-- Step 3 content START -->
+                                                        <div id="step-3" role="tabpanel" class="content fade" aria-labelledby="steppertrigger3">
+                                                            <!-- Title -->
+                                                            <h4>Who should join this course?</h4>
+                                                            <hr>
+                                                            <!-- Divider -->
+                                                            <div class="vstack gap-2">
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option111">
+                                                                    <label class="btn btn-outline-primary w-100" for="option111">We have cybersecurity insurance coverage</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option222">
+                                                                    <label class="btn btn-outline-primary w-100" for="option222">Our dedicated staff will protect us</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option333">
+                                                                    <label class="btn btn-outline-primary w-100" for="option333">We give regular training for best practices</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option444">
+                                                                    <label class="btn btn-outline-primary w-100" for="option444">Third-party vendor protection</label>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Next button -->
+                                                            <div class="d-flex justify-content-center mt-3">
+                                                                <button type="button" class="btn btn-primary next-btn mb-0">Next question</button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Step 3 content END -->
+                                                        <!-- Step 4 content START -->
+                                                        <div id="step-4" role="tabpanel" class="content fade" aria-labelledby="steppertrigger4">
+                                                            <!-- Title -->
+                                                            <h4>What are the T &C for this program?</h4>
+                                                            <hr>
+                                                            <!-- Divider -->
+                                                            <div class="vstack gap-2">
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option1111">
+                                                                    <label class="btn btn-outline-primary w-100" for="option1111">We have cybersecurity insurance coverage</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option2222">
+                                                                    <label class="btn btn-outline-primary w-100" for="option2222">Our dedicated staff will protect us</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option3333">
+                                                                    <label class="btn btn-outline-primary w-100" for="option3333">We give regular training for best practices</label>
+                                                                </div>
+                                                                <!-- Feed ques item -->
+                                                                <div>
+                                                                    <input type="radio" class="btn-check" name="ques" id="option4444">
+                                                                    <label class="btn btn-outline-primary w-100" for="option4444">Third-party vendor protection</label>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Next button -->
+                                                            <div class="d-flex justify-content-center mt-3">
+                                                                <button type="button" class="btn btn-success next-btn mb-0">View result</button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Step 4 content END -->
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <!-- Card body END -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Course item END -->
+                        </div>
+                        <!-- Main content END -->
+                    </div>
+                    <!-- Row END -->
+                </div>
+            </section>
+            <!-- =======================
+Page content END -->
+        </main>
+        <!-- **************** MAIN CONTENT END **************** -->
+        <!-- =======================
+Footer START -->
+<footer class="bg-dark pt-5 footer">
+	<div class="container">
+		<!-- Row START -->
+		<div class="row g-4">
+
+			<!-- Widget 1 START -->
+			<div class="col-lg-3">
+				<!-- logo -->
+				<a class="me-0" href="index.html">
+					<img class="h-40px" src="/assets/images/logo-light.svg" alt="logo">
+				</a>
+				<p class="my-3 text-muted">K Edu – Không chỉ là nơi học IT, mà còn là nơi bắt đầu hành trình phát triển nghề nghiệp của bạn.</p>
+				<!-- Social media icon -->
+				<ul class="list-inline mb-0 mt-3">
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-twitter" href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-linkedin" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
+				</ul>
+			</div>
+			<!-- Widget 1 END -->
+
+			<!-- Widget 2 START -->
+			<div class="col-lg-6">
+				<div class="row g-4">
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4 text-white">Công Ty</h5>
+						<ul class="nav flex-column text-primary-hover">
+							<li class="nav-item"><a class="nav-link" href="#">Giới Thiệu</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Liên Hệ Với Chúng Tôi</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Bài Viết</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Thư Viện</a></li>
+						</ul>
+					</div>
+									
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4 text-white">Cộng Đồng</h5>
+						<ul class="nav flex-column text-primary-hover">
+							<li class="nav-item"><a class="nav-link" href="#">Tài Liệu</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Diễn Đàn</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
+						</ul>
+					</div>
+
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4 text-white">Giáo Viên</h5>
+						<ul class="nav flex-column text-primary-hover">
+							<li class="nav-item"><a class="nav-link" href="#">Trở Thành Giáo Viên</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Cách hướng dẫn</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Điều Khoản &amp; Điều Kiện</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Widget 2 END -->
+
+			<!-- Widget 3 START -->
+			<div class="col-lg-3">
+				<h5 class="mb-2 mb-md-4 text-white">Liên Hệ</h5>
+				<!-- Time -->
+				<p class="mb-2 text-muted">
+					SĐT:<span class="h6 fw-light text-white ms-2">+1234 568 963</span>
+					<span class="d-block small">(9:AM đến 8:PM IST)</span>
+				</p>
+
+				<p class="mb-0 text-muted">Email:<span class="h6 fw-light text-white ms-2">example@gmail.com</span></p>
+
+				<div class="row g-2 mt-2">
+					<!-- Google play store button -->
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="/assets/images/client/google-play.svg" alt=""> </a>
+					</div>
+					<!-- App store button -->
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="/assets/images/client/app-store.svg" alt="app-store"> </a>
+					</div>
+				</div> <!-- Row END -->
+			</div> 
+			<!-- Widget 3 END -->
+		</div><!-- Row END -->
+
+		<!-- Divider -->
+		<hr class="mt-4 mb-0">
+
+		<!-- Bottom footer -->
+		<div class="py-3">
+			<div class="container px-0">
+				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+					<!-- copyright text -->
+					<div class="text-muted text-primary-hover"> Copyrights <a href="#" class="text-reset">©2025 K Edu</a>. All rights reserved. </div>
+					<!-- copyright links-->
+					<div class=" mt-3 mt-md-0">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item text-primary-hover">
+								<!-- Language selector -->
+								<div class="dropup mt-0 text-center text-sm-end">
+									<a class="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
+										<i class="fas fa-globe me-2"></i>Language
+									</a>
+									<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+										<li><a class="dropdown-item me-4 text-body" href="#"><img class="fa-fw me-2" src="assets/images/flags/uk.svg" alt="">English</a></li>
+										<li><a class="dropdown-item me-4 text-body" href="#"><img class="fa-fw me-2" src="assets/images/flags/gr.svg" alt="">German </a></li>
+										<li><a class="dropdown-item me-4 text-body" href="#"><img class="fa-fw me-2" src="assets/images/flags/sp.svg" alt="">French</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="list-inline-item text-primary-hover"><a class="nav-link" href="#">Terms of use</a></li>
+							<li class="list-inline-item text-primary-hover"><a class="nav-link pe-0" href="#">Privacy policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Modal START -->
+<div class="modal fade " id="coursePremium " tabindex="-1 " aria-hidden="true ">
+	<div class="modal-dialog modal-dialog-centered modal-lg ">
+		<div class="modal-content ">
+			<div class="modal-header border-0 bg-transparent ">
+				<!-- Close button -->
+				<button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+			</div>
+			<!-- Modal body -->
+			<div class="modal-body px-5 pb-5 position-relative overflow-hidden ">
+
+				<!-- Element -->
+				<figure class="position-absolute bottom-0 end-0 mb-n4 me-n4 d-none d-sm-block ">
+					<img src="images/01.svg " alt="element ">
+				</figure>
+				<figure class="position-absolute top-0 end-0 z-index-n1 opacity-2 ">
+					<svg xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " width="818.6px " height="235.1px " viewBox="0 0 818.6 235.1 ">
+						<path class="fill-info " d="M735,226.3c-5.7,0.6-11.5,1.1-17.2,1.7c-66.2,6.8-134.7,13.7-192.6-16.6c-34.6-18.1-61.4-47.9-87.3-76.7 c-21.4-23.8-43.6-48.5-70.2-66.7c-53.2-36.4-121.6-44.8-175.1-48c-13.6-0.8-27.5-1.4-40.9-1.9c-46.9-1.9-95.4-3.9-141.2-16.5 C8.3,1.2,6.2,0.6,4.2,0H0c3.3,1,6.6,2,10,3c46,12.5,94.5,14.6,141.5,16.5c13.4,0.6,27.3,1.1,40.8,1.9 c53.4,3.2,121.5,11.5,174.5,47.7c26.5,18.1,48.6,42.7,70,66.5c26,28.9,52.9,58.8,87.7,76.9c58.3,30.5,127,23.5,193.3,16.7 c5.8-0.6,11.5-1.2,17.2-1.7c26.2-2.6,55-4.2,83.5-2.2v-1.2C790,222,761.2,223.7,735,226.3z "></path>
+					</svg>
+				</figure>
+				<!-- Title -->
+				<h2>Get Premium Course in <span class="text-success ">$800</span></h2>
+				<p>Prosperous understood Middletons in conviction an uncommonly do. Supposing so be resolving breakfast am or perfectly.</p>
+				<!-- Content -->
+				<div class="row mb-3 item-collapse ">
+					<div class="col-sm-6 ">
+						<ul class="list-group list-group-borderless ">
+							<li class="list-group-item text-body "> <i class="bi bi-patch-check-fill text-success "></i>High quality Curriculum</li>
+							<li class="list-group-item text-body "> <i class="bi bi-patch-check-fill text-success "></i>Tuition Assistance</li>
+							<li class="list-group-item text-body "> <i class="bi bi-patch-check-fill text-success "></i>Diploma course</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 ">
+						<ul class="list-group list-group-borderless ">
+							<li class="list-group-item text-body "> <i class="bi bi-patch-check-fill text-success "></i>Intermediate courses</li>
+							<li class="list-group-item text-body "> <i class="bi bi-patch-check-fill text-success "></i>Over 200 online courses</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Button -->
+				<a href="#" class="btn btn-lg btn-orange-soft ">Purchase premium</a>
+			</div>
+			<!-- Modal footer -->
+			<div class="modal-footer d-block bg-info ">
+				<div class="d-sm-flex justify-content-sm-between align-items-center text-center text-sm-start ">
+					<!-- Social media button -->
+				<ul class="list-inline mb-0 social-media-btn mb-2 mb-sm-0 ">
+					<li class="list-inline-item "> <a class="btn btn-sm mb-0 me-1 bg-white text-facebook " href="#"><i class="fab fa-fw fa-facebook-f "></i></a> </li>
+					<li class="list-inline-item "> <a class="btn btn-sm mb-0 me-1 bg-white text-instagram " href="#"><i class="fab fa-fw fa-instagram "></i></a> </li>
+					<li class="list-inline-item "> <a class="btn btn-sm mb-0 me-1 bg-white text-twitter " href="#"><i class="fab fa-fw fa-twitter "></i></a> </li>
+					<li class="list-inline-item "> <a class="btn btn-sm mb-0 bg-white text-linkedin " href="#"><i class="fab fa-fw fa-linkedin-in "></i></a> </li>
+				</ul>
+				<!-- Contact info -->
+				<div>
+					<p class="mb-1 small "><a href="#" class="text-white "><i class="far fa-envelope fa-fw me-2 "></i>example@gmail.com</a></p>
+					<p class="mb-0 small "><a href="#" class="text-white "><i class="fas fa-headset fa-fw me-2 "></i>123-456-789</a></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>  
+<!-- Modal END -->
+<!-- Back to top -->
+<div class="back-top">
+	<i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- Bootstrap JS -->
+<script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Vendors -->
+<script src="/assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.js"></script>
+<script src="/assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script src="/assets/js/functions.js"></script>
+<script src="/assets/js/script.js"></script>
+<script src="/assets/js/darkMode.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+
+</body>
+</html>
